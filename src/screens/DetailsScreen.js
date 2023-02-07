@@ -22,6 +22,7 @@ const DetailsScreen = ({route, navigation}) => {
 
   const movieList = useSelector(state => state.film.dataList, shallowEqual);
 
+  // Örnek İçerik detayı eklendi.
   // Konu: Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.
   // image https://orhangazitv.com/wp-content/uploads/2020/04/kpax-izle-47-819x1024-1.jpg
   // video https://www.youtube.com/watch?v=b98rYy66Idk
